@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>wordle</title>
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+
+
+</head>
+<body>
+<div class="typewriter">
+<h1>WORDLE</h1>
+</div>
+<div class="cont">
+	<table>
+
+	
+		<tbody>
+
+				<td id="one1">{{a}}</td>
+				<td id="two1">{{b}}</td>
+				<td id="three1"></td>
+				<td id="four1"></td>
+				<td id="five1"></td>
+				
+				
+				<td id="one2"></td>
+				<td id="two2"></td>
+				<td id="three2"></td>
+				<td id="four2"></td>
+				<td id="five2"></td>
+				
+				
+				<td id="one3"></td>
+				<td id="two3"></td>
+				<td id="three3"></td>
+				<td id="four3"></td>
+				<td id="five3"></td>
+				
+				
+				<td id="one4"></td>
+				<td id="two4"></td>
+				<td id="three4"></td>
+				<td id="four4"></td>
+				<td id="five4"></td>
+				
+				
+				<td id="one5"></td>
+				<td id="two5"></td>
+				<td id="three5"></td>
+				<td id="four5"></td>
+				<td id="five5"></td>
+				
+				
+				<td id="one6"></td>
+				<td id="two6"></td>
+				<td id="three6"></td>
+				<td id="four6"></td>
+				<td id="five6"></td>
+				
+
+		</tbody>
+		
+
+	</table>
+</div>
+
+
+<form action="/keys" method="post">
+<div class="container">
+<div class="wrapper">
+		<div class="keys">
+		<input type="submit" name="Q" value="Q">
+		<input type="submit" name="W" value="W">
+		<input type="submit" name="E" value="E">
+		<input type="submit" name="R" value="R">
+		<input type="submit" name="T" value="T">
+		<input type="submit" name="Y" value="Y">
+		<input type="submit" name="U" value="U">
+		<input type="submit" name="I" value="I">
+		<input type="submit" name="O" value="O">
+		<input type="submit" name="P" value="P">
+
+
+
+        </div>
+	<div class="keys">
+
+		<input type="submit" name="A" value="A">
+		<input type="submit" name="S" value="S">
+		<input type="submit" name="D" value="D">
+		<input type="submit" name="F" value="F">
+		<input type="submit" name="G" value="G">
+		<input type="submit" name="H" value="H">
+		<input type="submit" name="J" value="J">
+		<input type="submit" name="K" value="K">
+		<input type="submit" name="L" value="L">
+	</div>
+	<div class="keys">
+	
+		<input type="submit" name="Z" value="Z">
+		<input type="submit" name="X" value="X">
+		<input type="submit" name="C" value="C">
+		<input type="submit" name="V" value="V">
+		<input type="submit" name="B" value="B">
+		<input type="submit" name="N" value="N">
+		<input type="submit" name="M" value="M">
+		
+
+	</div>
+	<div class="keys">
+		<input type="submit" name="ENTER" value="ENTER">
+</div>
+
+</div>
+</div>
+</form>
+<!--<form action="/sub" method="post">
+<input type="submit" name="submit_button" value="A">
+</form>-->
+
+</body>
+</html>
